@@ -15,7 +15,8 @@ body {
     font-family: "Fz Poppins", sans-serif;
 }
 
-/* Common */
+/* =============== Common =============== */
+
 .content {
     width: 1110px;
     max-width: calc(100% - 48px);
@@ -43,7 +44,7 @@ a {
     opacity: 0.7;
 }
 
-/* Header */
+/* =============== Header =============== */
 .header {
     position: relative;
     background: #e6f0ff;
@@ -133,4 +134,35 @@ a {
     position: absolute;
     right: calc((100vw - 1110px) / 2);
     bottom: 0;
+}
+
+/* =============== Client =============== */
+.clients {
+    margin-top: 122px;
+}
+
+.clients .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.clients .desc {
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 1.25;
+    color: #7d8589;
+}
+
+.clients .row-desc {
+    margin-top: 23px;
+}
+
+.clients .images {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.clients .images img {
+    height: 100px;
 }
