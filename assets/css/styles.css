@@ -32,7 +32,7 @@ a {
     display: inline-block;
     min-width: 98px;
     background: var(--primary-color);
-    border-radius: 8px;
+    border-radius: 12px;
     font-weight: 500;
     font-size: 1.4rem;
     text-align: center;
@@ -88,6 +88,7 @@ a {
 .navbar .action-btn {
     padding: 13px 16px;
     margin-left: 18px;
+    border-radius: 8px;
 }
 
 .hero {
@@ -233,7 +234,8 @@ a {
 }
 
 .guide-item .arrow {
-    height: 10px;
+    position: relative;
+    top: 2%;
     margin-left: 3px;
 }
 
@@ -245,4 +247,41 @@ a {
 
 .guide-cta .btn {
     min-width: 170px;
+}
+
+/* =============== Featured =============== */
+.featured {
+    margin-top: 230px;
+}
+
+.featured .sub-title {
+    font-weight: 600;
+    font-size: 3.5rem;
+    line-height: 1;
+    color: #000339;
+}
+
+.featured .row {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.featured .desc {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.88;
+    color: #5a4673;
+}
+
+.featured .link {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 1.8rem;
+    color: #0689ff;
+}
+
+.featured .link .arrow {
+    margin-left: 8px;
 }
